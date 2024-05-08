@@ -1,3 +1,3 @@
-module github.com/SakoDroid/telego
+module github.com/fulviodenza/telego
 
 go 1.18
