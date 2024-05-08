@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	cfg "github.com/SakoDroid/telego/v2/configs"
+	cfg "github.com/fulviodenza/telego/v2/configs"
 )
 
 type BotLogger struct {

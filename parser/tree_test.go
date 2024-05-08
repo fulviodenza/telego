@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/SakoDroid/telego/objects"
+	"github.com/fulviodenza/telego/objects"
 )
 
 var tree = &HandlerTree{}

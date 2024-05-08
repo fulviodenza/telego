@@ -4,13 +4,13 @@ import (
 	"log"
 	"os"
 
-	cfg "github.com/SakoDroid/telego/configs"
+	cfg "github.com/fulviodenza/telego/configs"
 )
 
-//Logger is the default logger of the bot.
+// Logger is the default logger of the bot.
 var Logger *log.Logger
 
-//colorized indicates if logs should be colored, default is true.
+// colorized indicates if logs should be colored, default is true.
 var colorized = true
 
 const (
@@ -25,7 +25,7 @@ const (
 	UNDERLINE string = "\033[4m"
 )
 
-//InitiTheLogger initializes the default logger of the bot.
+// InitiTheLogger initializes the default logger of the bot.
 func InitTheLogger(botCfg *cfg.BotConfigs) {
 	if Logger == nil {
 		var file *os.File
@@ -42,7 +42,7 @@ func InitTheLogger(botCfg *cfg.BotConfigs) {
 	}
 }
 
-//Log logs the given paramteres based on the defined format.
+// Log logs the given paramteres based on the defined format.
 func Log(header, space, content, after, headerColor, contentColor, afterColor string) {
 	if colorized {
 		text := "| " + headerColor + header + ENDC + space + contentColor + content + ENDC + " |" + afterColor + after + ENDC
@@ -54,12 +54,12 @@ func Log(header, space, content, after, headerColor, contentColor, afterColor st
 
 }
 
-//Uncolor, clears the colors of the logs.
+// Uncolor, clears the colors of the logs.
 func Uncolor() {
 	colorized = false
 }
 
-//Color adds color to the logs.
+// Color adds color to the logs.
 func Color() {
 	colorized = true
 }

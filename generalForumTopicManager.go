@@ -1,6 +1,6 @@
 package telego
 
-import objs "github.com/SakoDroid/telego/objects"
+import objs "github.com/fulviodenza/telego/objects"
 
 // generalForumTopicManager is a special object for managing genreal forum topics
 type generalForumTopicManager struct {

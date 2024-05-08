@@ -1,8 +1,8 @@
 # Telego
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/SakoDroid/telego/v2.svg)](https://pkg.go.dev/github.com/SakoDroid/telego/v2)
-![example workflow](https://github.com/SakoDroid/telego/actions/workflows/go.yml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/SakoDroid/telego/v2)](https://goreportcard.com/report/github.com/SakoDroid/telego/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/fulviodenza/telego/v2.svg)](https://pkg.go.dev/github.com/fulviodenza/telego/v2)
+![example workflow](https://github.com/fulviodenza/telego/actions/workflows/go.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fulviodenza/telego/v2)](https://goreportcard.com/report/github.com/fulviodenza/telego/v2)
 ![Development status](https://img.shields.io/badge/%20%20Development%20%20-%20%20Active%20%20-blueviolet)
 
 A Go library for creating telegram bots.
@@ -46,7 +46,7 @@ A Go library for creating telegram bots.
 If you like Telego and it has helped you to build your telegram bot easily 🫶🏼, then you can support it to get even better!
 You can support Telego by donating to the project or even giving it a star! Any kind of support is appreciated ❤️
 
-If you want to donate to telego project and keep it running, [click here](https://github.com/SakoDroid/telego/v2/blob/master/donate.md)
+If you want to donate to telego project and keep it running, [click here](https://github.com/fulviodenza/telego/v2/blob/master/donate.md)
 
 ---------------------------------
 ## Upgrading to v2
@@ -76,7 +76,7 @@ and monitor the poll update via a go channel.
  Install the package into your [$GOPATH](https://github.com/golang/go/wiki/GOPATH "GOPATH") with the [go command](https://golang.org/cmd/go/ "go command") from terminal :
 
  ```bash
- $ go get -u github.com/SakoDroid/telego/v2@v2.1.0
+ $ go get -u github.com/fulviodenza/telego/v2@v2.1.0
  ```
 
  Git needs to be installed on your computer.
@@ -93,9 +93,9 @@ and monitor the poll update via a go channel.
  import (
 	"fmt"
 
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 func main() {
@@ -137,9 +137,9 @@ func main() {
 
  ```go
  import (
-    bt "github.com/SakoDroid/telego/v2"
-    cfg "github.com/SakoDroid/telego/v2/configs"
-    objs "github.com/SakoDroid/telego/v2/objects"
+    bt "github.com/fulviodenza/telego/v2"
+    cfg "github.com/fulviodenza/telego/v2/configs"
+    objs "github.com/fulviodenza/telego/v2/objects"
  )
  ```
 
@@ -244,8 +244,8 @@ This struct is located in the `configs` package. To use webhook, first you need 
 
 ```go
 import (
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
 )
 
 func main() {
@@ -291,9 +291,9 @@ fmt.Println(reflect.DeepEqual(bc1, bc2)) //Prints true
 
  ```go
  import (
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	objs "github.com/fulviodenza/telego/v2/objects"
  )
 
  func main(){
@@ -314,9 +314,9 @@ Now that the bot is running it will receive updates from api server and passes t
 
  ```go
  import (
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	objs "github.com/fulviodenza/telego/v2/objects"
  )
 
  func main(){
@@ -422,9 +422,9 @@ import (
 	"fmt"
 	"strconv"
 
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 func main() {
@@ -650,9 +650,9 @@ You can create this type of keyboard by calling `CreateKeyboard` method of the b
 import (
 	"fmt"
 
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 func main() {
@@ -714,9 +714,9 @@ Inline keyboards appear below the message they have been sent with. To create in
 import (
 	"fmt"
 
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 func main() {
@@ -790,8 +790,8 @@ Let's see an example code. The code below registers a channel for inline queries
 import (
 	"fmt"
 
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
 )
 
 func main() {
@@ -834,7 +834,7 @@ func main() {
 				)
 
 				//Add an article
-				iqs.AddArticle("12345", "telego library", "https://github.com/SakoDroid/telego/v2", "", "", 0, 0, false, message, nil)
+				iqs.AddArticle("12345", "telego library", "https://github.com/fulviodenza/telego/v2", "", "", 0, 0, false, message, nil)
 
 				//Send the results
 				_, err := iqs.Send()
@@ -923,9 +923,9 @@ Middlewares can be added via `AddMiddleware` method of the `AdvancedBot`. Exampl
 import (
 	"fmt"
 
-	bt "github.com/SakoDroid/telego/v2"
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	"github.com/SakoDroid/telego/v2/objects"
+	bt "github.com/fulviodenza/telego/v2"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	"github.com/fulviodenza/telego/v2/objects"
 )
 
 func main() {

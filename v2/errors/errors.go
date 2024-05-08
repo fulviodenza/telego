@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	objs "github.com/SakoDroid/telego/v2/objects"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 // MethodNotSentError is returned when API server responds with any code other than 200

@@ -1,8 +1,8 @@
 # Telego
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/SakoDroid/telego/v2.svg)](https://pkg.go.dev/github.com/SakoDroid/telego/v2)
-![example workflow](https://github.com/SakoDroid/telego/v2/actions/workflows/go.yml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/SakoDroid/telego/v2)](https://goreportcard.com/report/github.com/SakoDroid/telego/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/fulviodenza/telego/v2.svg)](https://pkg.go.dev/github.com/fulviodenza/telego/v2)
+![example workflow](https://github.com/fulviodenza/telego/v2/actions/workflows/go.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fulviodenza/telego/v2)](https://goreportcard.com/report/github.com/fulviodenza/telego/v2)
 ![Version](https://img.shields.io/badge/%20%20Version%20%20-%20%201.8.0%20-brightgreen)
 ![Development status](https://img.shields.io/badge/%20%20Development%20%20-%20%20Active%20%20-blueviolet)
 
@@ -12,18 +12,18 @@ A Go library for creating telegram bots.
 
 ---------------------------------
 ## ⚠️ Deprecation notice ⚠️
-All versions and releases before v2.0.0 (including v1.8.0) have been deprecated and are considered out of date. Please consider updating to [v2](https://github.com/SakoDroid/telego/tree/master/v2) ASAP.
+All versions and releases before v2.0.0 (including v1.8.0) have been deprecated and are considered out of date. Please consider updating to [v2](https://github.com/fulviodenza/telego/tree/master/v2) ASAP.
 
 ---------------------------------
 ## ✅ Upgrading to v2
-Telego [v2](https://github.com/SakoDroid/telego/tree/master/v2) is a ground breaking change in Telego. Many new features have been added and many methods declarations have been changed. Some methods have been completely deprecated. Please read the change log before upgrading to [v2](https://github.com/SakoDroid/telego/tree/master/v2) and take extra caution while upgrading.
+Telego [v2](https://github.com/fulviodenza/telego/tree/master/v2) is a ground breaking change in Telego. Many new features have been added and many methods declarations have been changed. Some methods have been completely deprecated. Please read the change log before upgrading to [v2](https://github.com/fulviodenza/telego/tree/master/v2) and take extra caution while upgrading.
 
 ---------------------------------
 ## Supporting Telego
 If you like Telego and it has helped you to build your telegram bot easily 🫶🏼, then you can support it to get even better!
 You can support Telego by donating to the project or even giving it a star! Any kind of support is appreciated ❤️
 
-If you want to donate to telego project and keep it running, [click here](https://github.com/SakoDroid/telego/v2/blob/master/donate.md)
+If you want to donate to telego project and keep it running, [click here](https://github.com/fulviodenza/telego/v2/blob/master/donate.md)
 
 
 ---------------------------------

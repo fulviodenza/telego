@@ -5,7 +5,7 @@ import (
 	"errors"
 	"os"
 
-	objs "github.com/SakoDroid/telego/v2/objects"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 /*

@@ -1,7 +1,7 @@
 package parser
 
 import (
-	objs "github.com/SakoDroid/telego/objects"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 type chatRequestHandler struct {

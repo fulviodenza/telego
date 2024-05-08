@@ -1,6 +1,6 @@
 package telego
 
-import objs "github.com/SakoDroid/telego/objects"
+import objs "github.com/fulviodenza/telego/objects"
 
 type stickerEditor struct {
 	bot       *Bot

@@ -1,8 +1,8 @@
 package telego
 
 import (
-	objs "github.com/SakoDroid/telego/v2/objects"
-	upp "github.com/SakoDroid/telego/v2/parser"
+	objs "github.com/fulviodenza/telego/v2/objects"
+	upp "github.com/fulviodenza/telego/v2/parser"
 )
 
 // MarkUps is the interface used for creating normal keyboards and inline keyboards.

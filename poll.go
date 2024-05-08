@@ -3,7 +3,7 @@ package telego
 import (
 	"errors"
 
-	objs "github.com/SakoDroid/telego/objects"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 // Polls contains the pointers to all of the created maps.
@@ -172,7 +172,7 @@ func (p *Poll) Send(silent, protectContent bool, replyTo int) error {
 	res, err := p.bot.apiInterface.SendPoll(
 		p.chatIdInt, p.chatIdString, p.question, p.options, p.isClosed, p.isAnonymouse,
 		p.pollType, p.allowMultipleAnswers, p.correctOptionId, p.explanation, p.explanationParseMode,
-		p.explanationEntities, p.openPeriod, p.closeDate, replyTo,0, silent, false, protectContent, nil,
+		p.explanationEntities, p.openPeriod, p.closeDate, replyTo, 0, silent, false, protectContent, nil,
 	)
 	if err != nil {
 		return err

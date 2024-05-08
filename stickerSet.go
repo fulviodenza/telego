@@ -4,9 +4,9 @@ import (
 	"errors"
 	"os"
 
-	errs "github.com/SakoDroid/telego/errors"
-	logger "github.com/SakoDroid/telego/logger"
-	objs "github.com/SakoDroid/telego/objects"
+	errs "github.com/fulviodenza/telego/errors"
+	logger "github.com/fulviodenza/telego/logger"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 // StickerSet is a set of stickers.

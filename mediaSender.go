@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	objs "github.com/SakoDroid/telego/objects"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 type MediaType int

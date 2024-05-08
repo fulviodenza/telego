@@ -4,8 +4,8 @@ import (
 	"errors"
 	"os"
 
-	errs "github.com/SakoDroid/telego/errors"
-	objs "github.com/SakoDroid/telego/objects"
+	errs "github.com/fulviodenza/telego/errors"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 // MediaGroup is a media group that can be sent

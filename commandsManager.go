@@ -3,7 +3,7 @@ package telego
 import (
 	"errors"
 
-	objs "github.com/SakoDroid/telego/objects"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 // CommandsManager is a tool for managing bot commands

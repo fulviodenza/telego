@@ -1,7 +1,7 @@
 package telego
 
 import (
-	objs "github.com/SakoDroid/telego/v2/objects"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 // BotManager is a tool for manaing personal info of the bot.

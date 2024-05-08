@@ -1,7 +1,7 @@
 package telego
 
 import (
-	objs "github.com/SakoDroid/telego/v2/objects"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 // MessageCopier is tool for copying messages.

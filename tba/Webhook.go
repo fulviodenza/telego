@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	cfg "github.com/SakoDroid/telego/configs"
-	log "github.com/SakoDroid/telego/logger"
-	objs "github.com/SakoDroid/telego/objects"
-	up "github.com/SakoDroid/telego/parser"
+	cfg "github.com/fulviodenza/telego/configs"
+	log "github.com/fulviodenza/telego/logger"
+	objs "github.com/fulviodenza/telego/objects"
+	up "github.com/fulviodenza/telego/parser"
 )
 
 var configs *cfg.BotConfigs
@@ -17,7 +17,7 @@ var interfaceUpdateChannel *chan *objs.Update
 var chatUpdateChannel *chan *objs.ChatUpdate
 var isSecretTokenSet bool
 
-//StartWebHook starts the webhook.
+// StartWebHook starts the webhook.
 func StartWebHook(cfg *cfg.BotConfigs, iuc *chan *objs.Update, cuc *chan *objs.ChatUpdate) error {
 	configs = cfg
 	interfaceUpdateChannel = iuc

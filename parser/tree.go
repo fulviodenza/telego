@@ -3,28 +3,28 @@ package parser
 import (
 	"strings"
 
-	objs "github.com/SakoDroid/telego/objects"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
-//TreeNode is a special tree element containing handlers.
+// TreeNode is a special tree element containing handlers.
 type TreeNode struct {
 	father      *TreeNode
 	right, left *TreeNode
 	data        *handler
 }
 
-//HandlerTree is a special binary tree for storing handlers. Right node hase a value that does not match the it's father regex and the left node matches it's father regex.
+// HandlerTree is a special binary tree for storing handlers. Right node hase a value that does not match the it's father regex and the left node matches it's father regex.
 type HandlerTree struct {
 	root *TreeNode
 }
 
-//AddHandler adds a new handler to the tree.
+// AddHandler adds a new handler to the tree.
 func (tr *HandlerTree) AddHandler(hdl *handler) {
 	tn := TreeNode{data: hdl}
 	tr.addNode(&tn)
 }
 
-//GetHandler gets the proper handler for the given text.
+// GetHandler gets the proper handler for the given text.
 func (tr *HandlerTree) GetHandler(msg *objs.Message) *handler {
 	tn := tr.findTheNodeRegex(msg.Text, msg.Chat.Type)
 	if tn != nil {
@@ -71,7 +71,7 @@ func (tr *HandlerTree) checkForChatTypes(currentNode *TreeNode, chatType, text s
 	return currentNode
 }
 
-//Finds the perfect location for this handler.
+// Finds the perfect location for this handler.
 func (tr *HandlerTree) addNode(tn *TreeNode) {
 	var fatherNode *TreeNode
 	node := tr.root

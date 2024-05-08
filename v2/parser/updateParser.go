@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/SakoDroid/telego/v2/configs"
-	"github.com/SakoDroid/telego/v2/logger"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	"github.com/fulviodenza/telego/v2/configs"
+	"github.com/fulviodenza/telego/v2/logger"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 type UpdateParser struct {

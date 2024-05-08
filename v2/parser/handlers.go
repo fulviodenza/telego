@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	objs "github.com/SakoDroid/telego/v2/objects"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 // var handlers = handlerTree{}

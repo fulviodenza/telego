@@ -3,8 +3,8 @@ package telego
 import (
 	"encoding/json"
 
-	errs "github.com/SakoDroid/telego/v2/errors"
-	objs "github.com/SakoDroid/telego/v2/objects"
+	errs "github.com/fulviodenza/telego/v2/errors"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 // LiveLocation is a live location that can be sent to a user.

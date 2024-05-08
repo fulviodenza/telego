@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	cfg "github.com/SakoDroid/telego/v2/configs"
-	log "github.com/SakoDroid/telego/v2/logger"
-	objs "github.com/SakoDroid/telego/v2/objects"
-	up "github.com/SakoDroid/telego/v2/parser"
+	cfg "github.com/fulviodenza/telego/v2/configs"
+	log "github.com/fulviodenza/telego/v2/logger"
+	objs "github.com/fulviodenza/telego/v2/objects"
+	up "github.com/fulviodenza/telego/v2/parser"
 )
 
 type Webhook struct {

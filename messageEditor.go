@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	objs "github.com/SakoDroid/telego/objects"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 // MessageEditor is a tool for editing messsages.

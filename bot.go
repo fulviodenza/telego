@@ -5,12 +5,12 @@ import (
 	"errors"
 	"os"
 
-	cfg "github.com/SakoDroid/telego/configs"
-	errs "github.com/SakoDroid/telego/errors"
-	logger "github.com/SakoDroid/telego/logger"
-	objs "github.com/SakoDroid/telego/objects"
-	upp "github.com/SakoDroid/telego/parser"
-	tba "github.com/SakoDroid/telego/tba"
+	cfg "github.com/fulviodenza/telego/configs"
+	errs "github.com/fulviodenza/telego/errors"
+	logger "github.com/fulviodenza/telego/logger"
+	objs "github.com/fulviodenza/telego/objects"
+	upp "github.com/fulviodenza/telego/parser"
+	tba "github.com/fulviodenza/telego/tba"
 )
 
 type Bot struct {

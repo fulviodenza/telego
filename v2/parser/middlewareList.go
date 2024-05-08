@@ -3,7 +3,7 @@ package parser
 import (
 	"sync"
 
-	objs "github.com/SakoDroid/telego/v2/objects"
+	objs "github.com/fulviodenza/telego/v2/objects"
 )
 
 var middlewares = &middlewareLinkedList{}

@@ -11,8 +11,8 @@ import (
 
 	mp "mime/multipart"
 
-	errs "github.com/SakoDroid/telego/errors"
-	objs "github.com/SakoDroid/telego/objects"
+	errs "github.com/fulviodenza/telego/errors"
+	objs "github.com/fulviodenza/telego/objects"
 )
 
 /*Client used for sending http requests to bot api*/
@@ -29,8 +29,10 @@ func (hsc *httpSenderClient) sendHttpReqJson(method string, args objs.MethodArgu
 	return hsc.sendHttpReq(method, "application/json", bd)
 }
 
-/*This method sends an http request (without processing the response) as multipart/formdata. Returns the body of the response.
-This method is only used for uploading files to bot api server.*/
+/*
+This method sends an http request (without processing the response) as multipart/formdata. Returns the body of the response.
+This method is only used for uploading files to bot api server.
+*/
 func (hsc *httpSenderClient) sendHttpReqMultiPart(method string, args objs.MethodArguments, files ...*os.File) ([]byte, error) {
 	body := &bytes.Buffer{}
 	writer := mp.NewWriter(body)
